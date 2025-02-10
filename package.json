@@ -2,8 +2,11 @@
   "name": "myflix-client",
   "version": "1.0.0",
   "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "author": "",
   "license": "ISC",
   "description": "The **myFlix** front-end application is a client-side interface for a movie database built with React. This interface allows users to view and search for movies, manage their profiles, and curate a list of favorite movies.",
@@ -18,10 +21,13 @@
     "save": "^2.9.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/transformer-sass": "^2.12.0",
     "globals": "^15.12.0",
     "install": "^0.13.0",
     "parcel": "^2.8.3",
+    "node-env-run": "^4.0.2",
+    "parcel": "^2.12.0",
+    "sass": "^1.58.0",
     "process": "^0.11.10"
   }
 }
