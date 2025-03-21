@@ -28,8 +28,8 @@ Before you begin, ensure you have the following installed:
 Clone the project to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/myflix-app.git
-    cd myflix-app
+    git clone https://github.com/lorondo/myflix-client.git
+    cd myflix-client
     ```
 
 ### 2. Install Dependencies
